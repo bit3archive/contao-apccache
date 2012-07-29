@@ -1,7 +1,7 @@
 APC driven cache for Contao
 ===========================
 
-Used similar to the `Cache` and `FileCache` classes from Contao, but using APC.
+Caching class similar to the `Cache` and `FileCache` classes from Contao, but using APC as storage.
 
 ```php
 $objCache = ApcCache::getInstance('mycache');
